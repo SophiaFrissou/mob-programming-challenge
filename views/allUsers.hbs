@@ -1,2 +1,12 @@
-{{#each users}}
-{{/each}}
+<h1>{{title}}</h1>
+
+<ul>
+    {{#each users}}
+    <li>
+        {{this.email}}
+    </li>
+    <form class="form" method="post" action="/users/delete/{{this._id}}">
+                    <button class="btn">x</button>
+               
+    {{/each}}
+</ul> </form>

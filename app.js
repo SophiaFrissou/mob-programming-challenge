@@ -25,7 +25,7 @@ app.use("/", require('./routes/index'));
 
 const routerUsers = require("./routes/simploniens")
 
-//app.use(routerUsers);
+app.use(routerUsers);
 
 
 module.exports = app;
