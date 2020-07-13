@@ -1,15 +1,12 @@
 var express = require('express');
 var router = express.Router();
-var images = require
+
 
 /* GET users listing. */
-router.get('/', function(req, res, next) {
-  res.render('/'+ '/images');
-});
 
 
 router.get("/all-simploniens ", (req, res) => {
-  res.render("allUsers" + "/users");
+  res.render("allUsers");
 });
 
 
@@ -18,6 +15,6 @@ router.get("/add-simploniens", (req, res) => {
 });
 
 router.get("/api/simploniens", (req, res) => {
-  res.render("about");
+  res.json("foo bar baz");
 });
 module.exports = router;
