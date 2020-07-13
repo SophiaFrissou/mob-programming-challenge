@@ -1,0 +1,1 @@
+const users = [{name:"hawa", email: "hawa@mail.com", favoriteLangage: "JS"},{name:"Dalila", email: "dalila@mail.com", favoriteLangage: "R"},{name:"Kenwele", email: "kenwele@mail.com", favoriteLangage: "HTML"}]
